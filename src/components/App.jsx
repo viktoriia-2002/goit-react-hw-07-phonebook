@@ -20,7 +20,6 @@ const App = () => {
   }));
 
   const handleNewContact = newContact => {
-    const updatedContacts = [...contacts, newContact];
     dispatch(addContact(newContact));
   };
 
