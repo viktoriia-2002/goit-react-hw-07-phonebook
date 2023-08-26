@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-export const Form = styled.form`
-//   margin-left: 50px;
-`;
+export const Form = styled.form``;
 
 export const Label = styled.label`
   display: flex;
