@@ -6,7 +6,7 @@ import ContactListItem from '../ContactListItem/ContactListItem';
 const ContactList = ({ contacts, handleDelete }) => {
   return (
     <List>
-      {contacts.map(person => (
+      {contacts?.map(person => (
         <ContactListItem
           key={person.id}
           person={person}
